@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inputContainer,
+.details {
+  display: flex;
+}
+
+.inputContainer,
+.weatherContainer,
+.pair {
+  text-align: center;
+  justify-content: center;
+}
+
+input {
+  height: 30px;
+  padding: 5px;
+  background-color: gray;
+}
+
+button {
+  padding: 0 10px;
+  background-color: lightgray;
+  color: gray;
+}
+
+input,
+::placeholder {
+  color: #fff;
+}
+
+.weatherContainer {
+  margin-top: 30px;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+.pair {
+  margin: 40px;
+  width: 50%;
+}
+.condition {
+  font-size: 1.5rem;
+}
+.conditionIcon {
+  margin-top: 20px;
+  width: 70px;
+}
+
+.detail {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.label {
+  font-size: 0.8rem;
+}
