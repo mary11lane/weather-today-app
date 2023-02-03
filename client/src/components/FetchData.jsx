@@ -28,7 +28,8 @@ const FetchData = ({
 
   // SERVER RESPONSE
   const fetchWeather = async () => {
-    const { data } = await axios.get(`http://localhost:5000/api/${location}`);
+    const { data } = await axios.get(`/api/${location}`);
+    // const { data } = await axios.get(`http://localhost:5000/api/${location}`);
     // const { data } = await axios.get(
     //   `https://lanesb-weather-today-app.herokuapp.com/api/${location}`
     // );
