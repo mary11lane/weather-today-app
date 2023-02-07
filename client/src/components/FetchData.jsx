@@ -15,7 +15,6 @@ const FetchData = ({
   const url = 'http://localhost:5000/api';
   const inputLocationHandler = (e) => {
     setLocation(e.target.value);
-    console.log(e.target.value);
   };
 
   const submitHandler = (e) => {
