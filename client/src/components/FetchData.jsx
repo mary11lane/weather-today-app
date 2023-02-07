@@ -12,7 +12,7 @@ const FetchData = ({
   dataFetched,
   setDataFetched,
 }) => {
-  const url = '/api';
+  const url = 'http://localhost:5000/api';
   const inputLocationHandler = (e) => {
     setLocation(e.target.value);
     console.log(e.target.value);
